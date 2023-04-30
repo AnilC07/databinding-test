@@ -1,0 +1,5 @@
+<p>from child to parent</p>
+
+<label for="item">Add item :</label>
+<input type="text" id="item" #newItem />
+<button type="button" (click)="addNewItem(newItem.value)">Add this new item</button>
